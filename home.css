@@ -6,6 +6,11 @@
 body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+p {
+    margin-left: 2em;
+    margin-right: 2em;
+}
           
 .clearb {
     clear: both;
@@ -161,7 +166,7 @@ nav ul li a:hover {
 */
 @media only screen and (min-width: 480px) {   
     nav ul li {
-        width: 25%;
+        width: 20%;
         float: left;
     }
 }
