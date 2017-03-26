@@ -1,50 +1,46 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="home.css">
+        <meta http-equiv = "Content-Type" content = "text/html; charset=UTF-8" />
+        <meta name = "viewport" content = "width=device-width">
+        <link rel = "stylesheet" type = "text/css" href = "home.css">
         <title>
             Faust Box
         </title>
     </head>
     
-    <body bgcolor = "steelblue">
-        
-        <div class = "logo">
-            <br>
-            <a href = "index.html">
+    <header id = "mainHeader">
+        <div id = "responsiveLogo">
+            <center>
                 <img src = "res/FAUSTBOXLOGO.png">
+            </center>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <body>
+        <section id = "mainSection">
+            <!--
+            <div class="dropdown">
+                <div onclick="dropdown()" class="menunavbutton">
+                </div>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href = "#signup">Sign Up</a>
+                    <a href = "#login">Log In</a>
+                </div>
+            </div>
+            -->
+            <div class = "content">
+                <div class = "blank">
                 
-            </a>
-        </div>
-        
-        <div class = "tabBackground">
-            <div class = "tab" id = "home">
-                <a href = "index.html" style = "text-decoration: none; color: ghostwhite">
-                    Home
-                </a>
+                </div>
             </div>
-            <div class = "tab" id = "about">
-                <a href = "index.html" style = "text-decoration: none; color: ghostwhite">
-                    About
-                </a>
-            </div>
-        </div>
-        
-        <div class="dropdown">
-            <div onclick="dropdown()" class="menunavbutton">
-                    
-            </div>
-            <div id="myDropdown" class="dropdown-content">
-                <a href = "#signup">Sign Up</a>
-                <a href = "#login">Log In</a>
-            </div>
-        </div>
-        
-        <div class = "content">
-            
-            <div class = "blank">
-                
-            </div>
-        
             <div class = "founders">
                 <center>
                     Founded by Oscar Wong and Aahil Mehta © 2017-2018
@@ -56,7 +52,7 @@
                 </div>
             </center>
             <br>
-        </div>
+        </section>
         
         
         <script>
