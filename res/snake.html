@@ -44536,7 +44536,7 @@ function update() {
     default:
       break;
   }
-  if (hPos <= 0 || w - 1 <= hPos || vPos <= 0 || w - 1 <= vPos) {
+  if (hPos <= 0 || w - 1 <= hPos || vPos <= 0 || h - 1 <= vPos) {
     gameover = true;
   }
   for (var j = 0; j < tailSize; j++) {
@@ -44613,9 +44613,37 @@ function keyPressed() {
   }
 }
         </script>
-        <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+        <a class = "back" href = "../index.html">Back</a>
+        <a class = "back" href = "snake.html">Refresh</a>
+        <style> 
+            body {
+                padding: 0;
+                margin: 1%; 
+            } 
+            
+            canvas {
+                vertical-align: top;
+            } 
+            
+            .back {
+                text-decoration: none;
+                text-align: center;
+                font-family: Courier New;
+                color: black;
+                border-radius: 2px;
+                background-color: lightsteelblue;
+                border-style: solid;
+                border-color: lightsteelblue;
+                margin-right: 1%;
+            }
+            
+            .back: hover {
+                background-color: #a5a2db;
+                border-color: #a5a2db;
+            }
+        </style>
     </head>
 
-    <body>
+    <body bgcolor = "black">
     </body>
 </html>

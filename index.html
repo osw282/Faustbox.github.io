@@ -16,7 +16,7 @@
     </head>
     
     <header id = "mainHeader">
-        <div id = "responsiveLogo">
+        <div id = "logo">
             <center>
                 <img src = "res/FAUSTBOXLOGO.png">
             </center>
@@ -34,23 +34,12 @@
     
     <body>
         <section id = "mainSection">
-            <!--
-            <div class="dropdown">
-                <div onclick="dropdown()" class="menunavbutton">
-                </div>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href = "#signup">Sign Up</a>
-                    <a href = "#login">Log In</a>
-                </div>
-            </div>
-            -->
             <div class = "content">
                 <br>
                 <p>
                     This website is still in the process of developement, however, in the case of extreme boredom you may head over to the Lit Stuff tab.
                 </p>
                 <div class = "blank">
-                
                 </div>
             </div>
             <div class = "founders">
@@ -68,6 +57,12 @@
         
         
         <script>
+            window.onclick = function(event) {
+                if (event.target == document.getElementById('id01')) {
+                    modal.style.display = "none";
+                }
+            }
+            
             function alertFunction() {
                 alert("In Latin, Faust is defined as fortune.");
             }

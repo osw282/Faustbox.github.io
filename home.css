@@ -16,6 +16,22 @@ p {
     clear: both;
 }
 
+#mainHeader {
+    background-color: powderblue;
+    overflow: auto;
+    padding-top: 2em;
+}
+           
+#logo {
+    width: 100%;
+}
+          
+#logo img {
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 2em;
+}
+
 nav {
     float: left;
     width: 100%;
@@ -46,22 +62,6 @@ nav ul li a:hover {
     background-color: #a5a2db;
 }
 
-#mainHeader {
-    background-color: powderblue;
-    overflow: auto;
-    padding-top: 2em;
-}
-           
-#responsiveLogo {
-    width: 100%;
-}
-          
-#responsiveLogo img {
-    max-height: 100%;
-    max-width: 100%;
-    padding-bottom: 2em;
-}
-
 #mainSection {
     background-color: steelblue;
     width: 100%;
@@ -69,8 +69,8 @@ nav ul li a:hover {
 
 .content {
     background-color: ghostwhite;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     border-radius: 2px;
 }
 
@@ -98,11 +98,6 @@ nav ul li a:hover {
 .faustbutton:hover {
     background-color: orchid;
     cursor: hand;
-}
-
-.tab:hover, .tab:focus {
-    cursor: hand;
-    opacity: 1.5;
 }
 
 .blank {
@@ -154,7 +149,6 @@ nav ul li a:hover {
     display: block;
 }
 
-
 @font-face {
     font-family: tabFont;
     src: url(res/Don1.ttf);
@@ -164,7 +158,8 @@ nav ul li a:hover {
 -7 inch tablets
 -This CSS will apply for devices with the minimum width of 480 pixels
 */
-@media only screen and (min-width: 480px) {   
+@media only screen and (min-width: 480px) {
+    
     nav ul li {
         width: 20%;
         float: left;
